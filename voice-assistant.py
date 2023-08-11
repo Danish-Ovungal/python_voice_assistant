@@ -479,7 +479,7 @@ while True:
             break
             
         if "who is your master" in text:
-            speak("My master is Jithin Lakshman")
+            speak("My master is Danish Ovungal")
             break
         
         
@@ -646,7 +646,7 @@ while True:
             os.startfile(path_code)
 
         if 'open telegram' in text:
-            path_gram = "C:\\Users\\jithi\\AppData\\Roaming\\Telegram Desktop\\Telegram.exe"
+            path_gram = "C:\\Users\\dhani\\AppData\\Roaming\\Telegram Desktop\\Telegram.exe"
             os.startfile(path_gram)
 
         if "open codecogs" in text:
@@ -656,5 +656,5 @@ while True:
             webbrowser.open("https://www.udemy.com/home/my-courses/learning/")
 
         if "open kindle" in text:
-            path_kindle = "C:\\Users\\jithi\\AppData\\Local\\Amazon\\Kindle\\application\\Kindle.exe"
+            path_kindle = "C:\\Users\\dhani\\AppData\\Local\\Amazon\\Kindle\\application\\Kindle.exe"
             os.startfile(path_kindle)
